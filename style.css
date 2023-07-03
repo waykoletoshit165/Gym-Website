@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bodybuilder.webp");
+    background-repeat: no-repeat;
+    background-size: 1550px 1200px;
+    color: #ffffff;
+    font-style:italic;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    border-radius: 15px;
+
+}
+
+.left img{
+    width: 90px;
+    height:90px;
+    filter: invert(100%);
+    border-radius: 15px;
+    
+}
+
+.mid {
+    display:block;
+    width: 700px;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+
+}
+
+.right {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+    top:34px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a.active {
+    text-decoration: underline;
+
+}
+
+#name {
+    text-align: center;
+}
+
+.btn1 {
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight:bolder;
+    font-size:15px;
+
+}
+
+.btn1:hover  {
+    background-color: yellow;
+}
+
+
+.btn2 {
+    color: red;
+    background-color: aqua;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight:bolder;
+    font-size:15px;
+}
+
+.btn2:hover  {
+    background-color: yellow;
+}
+
+.container {
+    margin: 200px 200px;
+    /* border: 2px solid green; */
+    padding:35px 75px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-align:center;
+    color: red;
+    font-weight:bolder;
+    background-color: yellow;
+    border-radius: 15px; 
+}
+
+.form-group input{
+    display: block;
+    width:33%;
+    margin:10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 15px;
+    background-color: rgb(201, 201, 245);
+    font-weight: bolder;   
+}
+
+.btn {
+    display: block;
+    width: 400px;
+    margin: 25px  auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(216, 141, 249);
+
+}
+
+.btn:hover {
+    background-color:rgb(248, 248, 182);
+}
